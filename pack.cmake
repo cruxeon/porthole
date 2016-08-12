@@ -1,0 +1,5 @@
+pack_native_module(porthole)
+pack_dir(res)
+if(PACK_EXAMPLES)
+    pack_dir(examples)
+endif()
